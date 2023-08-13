@@ -1,0 +1,98 @@
+           body {
+               background-color: #f2c603;
+               color: #000;
+               font-family: Arial, sans-serif;
+               margin: 0;
+               padding: 0;
+           }
+   
+           .header {
+               background-color: #f2c603;
+               color: #FFF;
+               text-align: center;
+               padding: 1px;
+               position: fixed;
+               top: 0;
+               left: 0;
+               right: 0;
+               z-index: 1;
+           }
+           .greeting{
+            float: left; 
+            margin-left: 20px;
+            font-size: 20px; 
+            color:black;
+           }
+   
+           .item-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            margin-top: 120px;
+            height: 400px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            height: 400px;
+        }
+        
+           .item {
+               background-color: #FFF;
+               border: 1px solid #483D8B;
+               display: inline-block;
+               margin: 10px;
+               padding: 10px;
+               text-align: center;
+               width: 200px;
+               scroll-snap-align: center;
+               height: 350px;
+               width: 13vw;
+               font-size: 12px;
+           }
+   
+           .item img {
+               max-width: 100%;
+           }
+   
+            button {
+                background-color: black;
+                color: white;
+                border-radius: 20px;
+                padding: 10px 20px;
+                border: none;
+          }
+          button:hover{
+            background-color: #333333;
+            border-radius: 20px;}
+   
+           .footer {
+               background-color: #f2c603;
+               color: #FFF;
+               text-align: center;
+               padding: 10px;
+               position: fixed;
+               bottom: 0;
+               left: 0;
+               right: 0;
+               z-index: 1;
+           }
+           h3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           }
+           .item1 {
+            background-color: #FFF;
+            border: 1px solid #483D8B;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+            scroll-snap-align: center;
+            width: 13vw;
+            font-size: 12px;
+        }  
+          
+       

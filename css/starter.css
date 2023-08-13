@@ -1,0 +1,85 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the header */
+  .header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  /* Style for the login and signup buttons */
+  .login-button,
+  .signup-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the hover effect on buttons */
+  .login-button:hover,
+  .signup-button:hover {
+    background-color: #333333;
+  }
+  
+  /* Style for the main content */
+  .main {
+    min-height: 100%;
+    background-color: #f2c603;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  /* Style for the hero section */
+  .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .hero h1 {
+    font-size: 4rem;
+    margin-top: 600px;
+  }
+  .hero p {
+    font-size: 2rem;
+  }
+  
+
+  /* Style for the footer */
+  .footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  /* Style for the contact links */
+  .contact a {
+    color: white;
+    margin-right: 20px;
+  }
+  
+  /* Style for the copyright text */
+  .footer p {
+    font-size: 1rem;
+  }
+  
