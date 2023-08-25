@@ -22,7 +22,7 @@
         <a href="#">Contact Us</a>
         <a href="../admin/admin.login.php">Manager Login</a>
       </div>
-      <p>&copy; 2023 Buy Stuff. All rights reserved.</p>
+      <p>&copy; <?php echo date("y") ?> Buy Stuff. All rights reserved.</p>
     </div>
   </body>
 </html>
