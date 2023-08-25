@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><? echo 'hello world'; ?>
 <html>
   <head>
     <title>Buy Stuff</title>
